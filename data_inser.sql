@@ -4,7 +4,6 @@ INSERT INTO locations (id, city, province, country, office_type) VALUES
 (3, 'Montreal', 'Quebec', 'Canada', 'Regional'),
 (4, 'Calgary', 'Alberta', 'Canada', 'Regional');
 
-SELECT*FROM locations;
 
 INSERT INTO salary_bands (salary_band_name, min_salary, max_salary) VALUES
 ('Band A', 42000, 52000),
@@ -13,7 +12,6 @@ INSERT INTO salary_bands (salary_band_name, min_salary, max_salary) VALUES
 ('Band D', 82001, 105000),
 ('Band E', 105001, 135000);
 
-SELECT*FROM salary_bands;
 
 INSERT INTO departments (id, name, department_head, location_id) VALUES
 (1, 'Human Resources', 'Sara Mitchell', 1),
@@ -23,7 +21,6 @@ INSERT INTO departments (id, name, department_head, location_id) VALUES
 (5, 'Operations', 'Michael Turner', 3),
 (6, 'Customer Support', 'Nadia Hassan', 4);
 
-SELECT * FROM departments; 
 
 INSERT INTO job_roles (id, role_name, job_level, job_family) VALUES
 (1, 'HR Coordinator', 'Entry', 'Human Resources'),
@@ -2104,7 +2101,6 @@ VALUES
 (500, '2023-06-30', 2, 'No'),
 (500, '2024-06-30', 3, 'Yes');
 
-SELECT * FROM performance_reviews;
 
 INSERT INTO exit_reasons
 (employee_id, termination_date, exit_reason, exit_type)
